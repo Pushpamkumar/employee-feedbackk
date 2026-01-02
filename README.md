@@ -1,78 +1,66 @@
-Employee Feedback Dashboard
+# Employee Feedback Dashboard
 
-A full-stack web application designed to digitize and streamline employee feedback collection. The system replaces unstructured manual feedback processes with a secure, scalable, and well-organized digital solution.
+A full-stack web application designed to streamline and digitize employee feedback collection, replacing unorganized manual processes with a secure and scalable system.
 
-📌 Project Overview
+---
 
-The Employee Feedback Dashboard enables employees to submit feedback through a user-friendly interface while allowing administrators to securely manage, review, and analyze feedback. The application focuses on clean UI design, secure authentication, and modular backend architecture.
+## 📌 Project Overview
 
-🚀 Features
-👨‍💼 Employee Features
+The Employee Feedback Dashboard allows employees to submit feedback easily while enabling administrators to manage, review, and control feedback securely.  
+The project focuses on clean UI, modular backend design, and secure authentication.
 
-Submit feedback easily through a responsive UI
+---
 
-View previously submitted feedback
+## 🚀 Features
 
-Secure login using authentication
+### 👨‍💼 Employee
+- Submit feedback through a user-friendly interface
+- View submitted feedback
+- Secure authentication
 
-🛠️ Admin Features
+### 🛠️ Admin
+- View and manage employee feedback
+- Delete or review feedback entries
+- Role-based access control
 
-View and manage all employee feedback
+### ⚙️ System
+- Full CRUD operations
+- RESTful APIs
+- JWT-based authentication
+- Responsive design
 
-Delete or review feedback entries
+---
 
-Role-based access control
+## 🧑‍💻 Tech Stack
 
-⚙️ System Features
+### Frontend
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3 / Tailwind CSS  
 
-Full CRUD operations for feedback management
+### Backend
+- Node.js  
+- Express.js  
 
-RESTful APIs for frontend–backend communication
+### Database
+- MongoDB  
+- Mongoose (ODM)  
 
-Secure authentication using JWT
+### Authentication
+- JSON Web Tokens (JWT)
 
-Modular and scalable backend structure
+### Tools
+- Git  
+- GitHub  
+- VS Code  
+- dotenv  
 
-Responsive design for multiple screen sizes
+---
 
-🧑‍💻 Tech Stack
-Frontend
+## 🏗️ Project Structure
 
-React.js
-
-JavaScript (ES6+)
-
-HTML5
-
-CSS3 / Tailwind CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB
-
-Mongoose (ODM)
-
-Authentication
-
-JSON Web Tokens (JWT)
-
-Tools
-
-Git
-
-GitHub
-
-VS Code
-
-dotenv
-
-🏗️ Project Structure
+```bash
 employee-feedback/
 │
 ├── config/
@@ -95,11 +83,11 @@ employee-feedback/
 
 🔐 Authentication & Security
 
-Implemented JWT-based authentication
+JWT-based authentication
 
 Protected API routes using middleware
 
-Role-based access control for Admin and Employee
+Role-based access control (Admin & Employee)
 
 Environment variables secured using .env
 
@@ -112,11 +100,11 @@ MongoDB (local or cloud)
 
 npm
 
-Backend Setup
+Setup
 npm install
 npm start
 
-Environment Variables
+🌱 Environment Variables
 
 Create a .env file in the root directory:
 
@@ -124,41 +112,27 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-🧪 API Functionalities
-
-Create employee feedback
-
-Fetch feedback (admin / employee)
-
-Delete feedback
-
-User authentication & authorization
-
-Secure REST endpoints
-
 📈 Future Enhancements
 
-Feedback analytics and reports
+Feedback analytics dashboard
 
-Admin dashboard with charts
+Charts and reports
 
-Pagination and advanced filtering
+Pagination and filtering
 
 Email notifications
 
-Deployment on cloud platform
+Cloud deployment
 
 🎯 Learning Outcomes
 
-Practical experience with React and modern JavaScript
+React and modern JavaScript development
 
-Backend development using Node.js and Express
+REST API design using Express.js
 
-REST API design and implementation
+MongoDB integration with Mongoose
 
-Secure authentication using JWT
-
-Database integration using MongoDB
+Secure authentication with JWT
 
 Clean and scalable project architecture
 
