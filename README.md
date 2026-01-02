@@ -81,7 +81,9 @@ employee-feedback/
 ├── package.json
 └── README.md
 
-🔐 Authentication & Security
+---
+
+##🔐 Authentication & Security
 
 JWT-based authentication
 
@@ -91,28 +93,35 @@ Role-based access control (Admin & Employee)
 
 Environment variables secured using .env
 
-⚙️ Installation & Setup
+---
+
+##⚙️ Installation & Setup
 Prerequisites
 
 Node.js
 
 MongoDB (local or cloud)
+---
 
-npm
-
+##npm
+```bash
 Setup
 npm install
 npm start
 
-🌱 Environment Variables
+---
+
+##🌱 Environment Variables
 
 Create a .env file in the root directory:
-
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-📈 Future Enhancements
+---
+
+##📈 Future Enhancements
 
 Feedback analytics dashboard
 
@@ -123,8 +132,8 @@ Pagination and filtering
 Email notifications
 
 Cloud deployment
-
-🎯 Learning Outcomes
+---
+##🎯 Learning Outcomes
 
 React and modern JavaScript development
 
@@ -136,7 +145,9 @@ Secure authentication with JWT
 
 Clean and scalable project architecture
 
-👨‍🎓 Author
+---
+
+##👨‍🎓 Author
 
 Pushpam Kumar
 Final Year B.Tech (Computer Science)
